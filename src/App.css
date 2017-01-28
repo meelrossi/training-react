@@ -1,0 +1,115 @@
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.Header {
+  padding: 23px 34px;
+  box-shadow: 0 5px 5px rgb(230, 229, 229);
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  height: 42px;
+}
+
+.user-logo {
+  margin-left: 30px;
+  width: 30px;
+  height: 30px;
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+}
+select:focus, input:focus {
+  outline: none;
+}
+
+select, input {
+  background-color: transparent;
+  border: none;
+  -webkit-appearance: none;
+  appearance: none;
+  font-size: 14px;
+}
+
+.filter-select {
+  width: 100%;
+}
+
+.input-wrapper {
+  padding: 10px 12px;
+  background-color: #f4f4f4;
+  width: 238px;
+  margin-left: 28px;
+}
+
+.input-wrapper:first-child {
+  margin-left: 0;
+}
+
+.filters-wrapper {
+  display: flex;
+  margin: 93px 0;
+}
+
+.container {
+  margin-left: 358px;
+  margin-right: 358px;
+}
+
+.search-button {
+  background-color: #a5cd39;
+  width: 38px;
+  height: 38px;
+  display: flex;
+}
+
+.search-button img {
+  margin: auto;
+  display: block;
+}
+
+.book-info {
+  width: 128px;
+  height: 182px;
+  background-color: #d8d8d8;
+  display: flex;
+}
+
+.book-info img {
+  margin: auto;
+}
+
+.books-layout {
+  display: flex;
+  flex-flow: row wrap;
+  margin-left: 323px;
+  margin-right: 323px;
+}
+
+.book {
+  flex-basis: 25%;
+  flex: 1;
+  margin-left:  35px;
+  margin-right: 35px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
